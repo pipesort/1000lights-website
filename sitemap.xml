@@ -3,11 +3,10 @@
 <url> <loc>https://www.pipesort.com/1000lights-website/components</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.pipesort.com/1000lights-website/gettingStarted</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.pipesort.com/1000lights-website/components/BottomSheet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.pipesort.com/1000lights-website/components/card/CardSlider</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.pipesort.com/1000lights-website/components/card/PinterestCards</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.pipesort.com/1000lights-website/components/card</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.pipesort.com/1000lights-website/components/CardSlider</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.pipesort.com/1000lights-website/components/ColoredCards</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.pipesort.com/1000lights-website/components/input</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://www.pipesort.com/1000lights-website/components/PinterestCards</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.pipesort.com/1000lights-website/components/SelectBox</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://www.pipesort.com/1000lights-website/components/card/ColoredCards</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://www.pipesort.com/1000lights-website/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
