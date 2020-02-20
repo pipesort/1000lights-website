@@ -17,7 +17,7 @@ List of colored Cards that can be configured to fit your design.
 ## Usage
 
 ```javascript
-import ColoredCards from "react-native-lights";
+import {ColoredCards} from "react-native-lights";
 
 const ColoredCards = () => {
      const cardItems = [
@@ -26,29 +26,34 @@ const ColoredCards = () => {
           description: 'You can add a list of colored cards',
           buttonTitle: 'Get Started',
           backgroundColor: 'green',
+
           buttonFunction: function(){
-              console.log("Thousand Lights")
+              console.log("Lights")
           }
+
         },
         {
             title: 'Pintest cards',
             description: 'Pinterest style can that can be used with ease',
             buttonTitle: 'Get Started',
             backgroundColor: 'Pink',
+
             buttonFunction: function(){
-              Alert.alert("Thank You", "for choosing Thousand Lights!", [{text:"Welcome"}])
-          },
+              Alert.alert("Thank You", "for choosing Lights!", [{text:"Welcome"}])
+                                      },
+        },
            {
             title: 'You can also check out',
             description: 'Bottomsheet, Input',
             buttonTitle: 'Get Started',
             backgroundColor: 'blue',
             buttonFunction: function(){
-              Alert.alert("Thank You", "for choosing Thousand Lights!", [{text:"Welcome"}])
-          },
+              Alert.alert("Thank You", "for choosing Lights!", [{text:"Welcome"}])
+                                      },
+            }
       ];
   return (
-    <View style={{flex:1}}
+    <View style={{flex:1}}>
     <ColoredCards data={cardItems} />
     </View>
   );

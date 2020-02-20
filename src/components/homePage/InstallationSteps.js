@@ -5,8 +5,18 @@ import { docco } from "react-syntax-highlighter/dist/esm/styles/hljs"
 
 const InstallationSteps = () => {
   const codeString = `import React from 'react';
-import SelectBox from 'react-native-lights/SelectBox';
-export const AwesomeButton = () => (<SelectBox options={options} data={data} />);`
+import {BottomSheet} from 'react-native-lights';
+export default BottomSheet = () => {
+    const data = {
+      buttonText: 'card1',
+      bodyText: 'Lorem ipsum dolor sit amet et nuncat mergitur',  
+     }
+return (
+<View style={{flex:1}}>
+   <BottomSheet data={data} />
+</View>
+       );
+};`
 
   const codeString2 = `npm install react-native-lights`
 

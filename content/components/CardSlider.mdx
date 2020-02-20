@@ -17,9 +17,7 @@ Highly configurable card slider.
 ## Usage
 
 ```javascript
-import {
-  CardSlider
-} from "react-native-lights";
+import {CardSlider} from "react-native-lights";
 
 const CardComponent = () => {
     
@@ -29,9 +27,11 @@ const CardComponent = () => {
           description: 'Include images to your card',
           buttonTitle: 'Get Started',
           backgroundImage: {uri:'https://i.imgur.com/2nCt3Sbl.jpg'},
+
           buttonFunction: function(){
             Alert.alert("Thank You", "for choosing Lights!", [{text:"Welcome"}])
         }
+
         },
         {
             title: 'Card 2',
@@ -44,9 +44,11 @@ const CardComponent = () => {
           description: 'onPress function is tagged to the image.',
           buttonTitle: 'Get Started',
           backgroundImage: {uri:'https://i.imgur.com/2nCt3Sbl.jpg'},
+
           buttonFunction: function(){
               Alert.alert("Thank You", "for choosing Lights!", [{text:"Welcome"}])
           }
+          
         },
 
         {
