@@ -39,7 +39,7 @@ return (
       <div class="col-md-6 bg-gray-400 lg:py-10 w-full flex flex-col justify-center px-5 sm: py-10">
         <div class="lg:py-2">
           <p class="text-xl lg:py-2 sm: py-5">
-            1. Install the 1000lights package from the NPM or Yarn
+            1. Install the lights package from the NPM or Yarn
           </p>
           <SyntaxHighlighter language="javascript" style={docco}>
             {codeString2}

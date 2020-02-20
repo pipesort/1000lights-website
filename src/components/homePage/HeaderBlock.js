@@ -1,5 +1,5 @@
 import React from "react"
-import bannerImg from "../images/banner.png"
+import bannerImg from "../images/bannerLight.png"
 import gitHubImg from '../images/github.svg'
 import lightImg from '../images/light-bulb.svg'
 import { navigate} from "gatsby"
